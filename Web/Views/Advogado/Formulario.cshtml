@@ -1,0 +1,118 @@
+﻿@model Web.ViewModels.AdvogadoViewModel
+@using Dominio
+
+@{
+    ViewBag.Title = "Cadastro de Advogado";
+}
+
+<div class="container py-4">
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-xl-10">
+
+            <div class="card border-0 shadow overflow-hidden">
+                <div class="card-header bg-white border-0 py-4 px-4">
+                    <div>
+                        <h2 class="mb-1 fw-bold text-dark">Cadastro de Advogado</h2>
+                        <p class="text-muted mb-0">Preencha os dados abaixo para cadastrar ou editar um advogado</p>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    @using (Html.BeginForm("Formulario", "Advogado", FormMethod.Post, new { id = "frmAdvogado" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.HiddenFor(a => a.Id)
+
+                        <div class="row">
+                            <div class="col-md-6 form-group-custom">
+                                <label class="form-label campo-obrigatorio">Nome do Advogado</label>
+                                @Html.TextBoxFor(a => a.Nome, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(a => a.Nome, "", new { @class = "text-danger validation-message" })
+                            </div>
+
+                            <div class="col-md-6 form-group-custom">
+                                <label class="form-label campo-obrigatorio">Senioridade</label>
+                                @Html.DropDownListFor(
+                                    x => x.Senioridade,
+                                    new SelectList(Enum.GetValues(typeof(SenioridadeEnum))),
+                                    "Selecione",
+                                    new { @class = "form-control" })
+                                @Html.ValidationMessageFor(a => a.Senioridade, "", new { @class = "text-danger validation-message" })
+                            </div>
+
+                            <div class="col-md-4 form-group-custom">
+                                <label class="form-label campo-obrigatorio">CEP</label>
+                                @Html.TextBoxFor(a => a.Cep, new { @class = "form-control", id = "Cep" })
+                                @Html.ValidationMessageFor(a => a.Cep, "", new { @class = "text-danger validation-message" })
+                                <div id="CepLoading" class="text-primary mt-2" style="display:none;">
+                                    <span class="spinner-border spinner-border-sm me-1" role="status" aria-hidden="true"></span>
+                                    Buscando endereço...
+                                </div>
+                                <span id="CepErro" class="text-danger validation-message d-block"></span>
+                            </div>
+
+                            <div class="col-md-8 form-group-custom">
+                                <label class="form-label campo-obrigatorio">Logradouro</label>
+                                @Html.TextBoxFor(a => a.Logradouro, new { @class = "form-control", id = "Logradouro" })
+                                @Html.ValidationMessageFor(a => a.Logradouro, "", new { @class = "text-danger validation-message" })
+                            </div>
+
+                            <div class="col-md-4 form-group-custom">
+                                <label class="form-label campo-obrigatorio">Bairro</label>
+                                @Html.TextBoxFor(a => a.Bairro, new { @class = "form-control", id = "Bairro" })
+                                @Html.ValidationMessageFor(a => a.Bairro, "", new { @class = "text-danger validation-message" })
+                            </div>
+
+                            <div class="col-md-4 form-group-custom">
+                                <label class="form-label campo-obrigatorio">Estado</label>
+                                @Html.DropDownListFor(a => a.Estado,
+                                    new SelectList(new[]
+                                    {
+                                        "AC","AL","AP","AM","BA","CE","DF","ES","GO","MA",
+                                        "MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN",
+                                        "RS","RO","RR","SC","SP","SE","TO"
+                                    }),
+                                    "Selecione",
+                                    new { @class = "form-control", id = "Estado" })
+                                @Html.ValidationMessageFor(a => a.Estado, "", new { @class = "text-danger validation-message" })
+                            </div>
+
+                            <div class="col-md-4 form-group-custom">
+                                <label class="form-label campo-obrigatorio">Número</label>
+                                @Html.TextBoxFor(a => a.Numero, new { @class = "form-control", @id = "Numero" })
+                                @Html.ValidationMessageFor(a => a.Numero, "", new { @class = "text-danger validation-message" })
+                            </div>
+
+                            <div class="col-12 form-group-custom">
+                                <label class="form-label campo-obrigatorio">Complemento</label>
+                                @Html.TextBoxFor(a => a.Complemento, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(a => a.Complemento, "", new { @class = "text-danger validation-message" })
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-2 mt-3">
+                            <a href="@Url.Action("Index", "Advogado")" class="btn btn-outline-secondary px-4 rounded-3">
+                                Voltar
+                            </a>
+                            <button type="submit" class="btn btn-success px-4 rounded-3 shadow-sm">
+                                Salvar
+                            </button>
+
+                        </div>
+                    }
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="~/Scripts/app/Advogado/AdvogadoViewModel.js"></script>
+    <script>
+        AdvogadoViewModel_AoCarregarComponente();
+    </script>
+}

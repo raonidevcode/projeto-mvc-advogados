@@ -1,0 +1,24 @@
+C:\Users\raoni\OneDrive\Documentos\Web\Dominio\bin\Debug\Dominio.dll
+C:\Users\raoni\OneDrive\Documentos\Web\Dominio\bin\Debug\Dominio.pdb
+C:\Users\raoni\OneDrive\Documentos\Web\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\raoni\OneDrive\Documentos\Web\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\raoni\OneDrive\Documentos\Web\Dominio\obj\Debug\Dominio.dll
+C:\Users\raoni\OneDrive\Documentos\Web\Dominio\obj\Debug\Dominio.pdb
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Dominio\bin\Debug\Dominio.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Dominio\bin\Debug\Dominio.pdb
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Dominio\obj\Debug\Dominio.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Dominio\obj\Debug\Dominio.pdb
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Dominio\bin\Debug\Dominio.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Dominio\bin\Debug\Dominio.pdb
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Dominio\obj\Debug\Dominio.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Dominio\obj\Debug\Dominio.pdb
+C:\projeto_entregar\Dominio\bin\Debug\Dominio.dll
+C:\projeto_entregar\Dominio\bin\Debug\Dominio.pdb
+C:\projeto_entregar\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\projeto_entregar\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\projeto_entregar\Dominio\obj\Debug\Dominio.dll
+C:\projeto_entregar\Dominio\obj\Debug\Dominio.pdb

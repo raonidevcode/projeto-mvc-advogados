@@ -1,0 +1,183 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+
+/* Grid */
+.card {
+    box-shadow: 0 0.5rem 1.2rem rgba(0,0,0,.08) !important;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+    transition: 0.2s;
+}
+
+.btn {
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.dataTables_filter {
+    margin-bottom: 1rem;
+}
+
+.dataTables_filter input {
+    border-radius: 10px !important;
+    padding: 6px 12px !important;
+    margin-left: 8px !important;
+}
+
+.dataTables_length select {
+    border-radius: 10px !important;
+    padding: 4px 8px !important;
+}
+
+.dataTables_paginate .paginate_button {
+    padding: 0.25rem 0.75rem !important;
+    margin: 0 2px !important;
+    border-radius: 8px !important;
+}
+
+.badge-senioridade {
+    font-size: 0.85rem;
+}
+
+td div {
+    line-height: 1.3;
+}
+
+.dataTables_length {
+    display: flex !important;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.dataTables_length label {
+    display: flex !important;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.dataTables_length select {
+    width: auto !important;
+    min-width: 70px;
+}
+
+.dataTables_length label {
+    flex-wrap: nowrap;
+}
+
+#tblAdvogados {
+    width: 100% !important;
+}
+
+#tblAdvogados th,
+#tblAdvogados td {
+    vertical-align: middle;
+}
+
+#tblAdvogados td {
+    white-space: normal;
+}
+
+.dataTables_wrapper {
+    overflow-x: hidden;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+.dataTables_wrapper .dataTables_filter label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    width: 220px !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    margin-left: 0 !important;
+}
+
+/* Formulário */
+.card {
+    box-shadow: 0 0.5rem 1.2rem rgba(0,0,0,.08) !important;
+    border-radius: 18px;
+}
+
+.btn {
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.campo-obrigatorio::after {
+    content: " *";
+    color: #dc3545;
+}
+
+.validation-message {
+    font-size: 0.875rem;
+    margin-top: 6px;
+    display: block;
+}
+
+.form-group-custom {
+    margin-bottom: 1.25rem;
+}
+
+.form-label {
+    margin-bottom: .55rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.form-control,
+.form-select {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 48px;
+    border-radius: 12px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem 0.95rem;
+    box-sizing: border-box;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: 0 0 0 0.15rem rgba(13,110,253,.15);
+    border-color: #86b7fe;
+}
+
+.card-body {
+    padding: 2rem !important;
+}

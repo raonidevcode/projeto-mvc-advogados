@@ -1,0 +1,56 @@
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\bin\Debug\Dominio.dll
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\bin\Debug\Dominio.pdb
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\obj\Debug\Repositorio.csproj.AssemblyReference.cache
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\obj\Debug\Reposito.F4C96B80.Up2Date
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\obj\Debug\Repositorio.pdb
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\raoni\OneDrive\Documentos\Web\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\bin\Debug\Dominio.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\bin\Debug\Dominio.pdb
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\obj\Debug\Repositorio.csproj.AssemblyReference.cache
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\obj\Debug\Reposito.F4C96B80.Up2Date
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Web\Repositorio\obj\Debug\Repositorio.pdb
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\bin\Debug\Dominio.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\bin\Debug\Dominio.pdb
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\obj\Debug\Repositorio.csproj.AssemblyReference.cache
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\obj\Debug\Reposito.F4C96B80.Up2Date
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\raoni\OneDrive\Área de Trabalho\Teste\Repositorio\obj\Debug\Repositorio.pdb
+C:\projeto_entregar\Repositorio\bin\Debug\Repositorio.dll.config
+C:\projeto_entregar\Repositorio\bin\Debug\Repositorio.dll
+C:\projeto_entregar\Repositorio\bin\Debug\Repositorio.pdb
+C:\projeto_entregar\Repositorio\bin\Debug\Dominio.dll
+C:\projeto_entregar\Repositorio\bin\Debug\EntityFramework.dll
+C:\projeto_entregar\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\projeto_entregar\Repositorio\bin\Debug\Dominio.pdb
+C:\projeto_entregar\Repositorio\bin\Debug\EntityFramework.xml
+C:\projeto_entregar\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\projeto_entregar\Repositorio\obj\Debug\Repositorio.csproj.AssemblyReference.cache
+C:\projeto_entregar\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\projeto_entregar\Repositorio\obj\Debug\Reposito.F4C96B80.Up2Date
+C:\projeto_entregar\Repositorio\obj\Debug\Repositorio.dll
+C:\projeto_entregar\Repositorio\obj\Debug\Repositorio.pdb
